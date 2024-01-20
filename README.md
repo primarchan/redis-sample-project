@@ -73,3 +73,8 @@
   - 메모리를 적게 사용하여 대량의 데이터 저장에 유용
 - Command
   - `SETBIT`, `GETBIT`, `BITCOUNT`, 
+
+
+## Redis Transaction
+- Command
+  - `MULTI`, `EXEC`, `DISCARD`, `WATCH`
