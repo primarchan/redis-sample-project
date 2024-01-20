@@ -9,13 +9,20 @@
 - Mac OS
 
 ## COMMAND
-- `docker run --rm -it -d -p 6379:6379 redis:6.2`
-- `docker ps`
-- `docker logs [CONTAINER_ID]`
-- `docker exec -it [CONTAINER_ID] redis-cli`
-- `docker exec -it [CONTAINER_ID] redis-cli monitor`
-- `docker exec -it [CONTAINER_ID] /bin/bash`
-- `redis-benchmark`
+- Redis 6.2
+  - `docker run --rm -it -d -p 6379:6379 redis:6.2`
+  - `docker ps`
+  - `docker logs [CONTAINER_ID]`
+  - `docker exec -it [CONTAINER_ID] redis-cli`
+  - `docker exec -it [CONTAINER_ID] redis-cli monitor`
+  - `docker exec -it [CONTAINER_ID] /bin/bash`
+  - `redis-benchmark`
+- MySQL 8
+  - `docker pull mysql:8`
+  - `docker run -e MYSQL_ROOT_PASSWORD=[PASSWORD] -d -p 3307:3306 mysql:8`
+  - `docker exec -it [CONTAINER_ID] mysql -p`
+  - `create database [DATABASE_NAME]`
+  - `describe [TABLE_NAME]`
 
 ## DOCUMENTATION
 - Jedis Guide
