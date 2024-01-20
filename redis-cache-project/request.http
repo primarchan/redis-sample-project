@@ -1,0 +1,20 @@
+### GET 요청 예제
+GET http://example.com/api/users
+
+### getUser 요청
+GET http://localhost:8080/user/1
+
+### getRedisHashUser 요청
+GET http://localhost:8080/user/redis-hash/1
+
+### getCachinghUser 요청
+GET http://localhost:8080/user/spring-cache/1
+
+### POST 요청 예제
+POST http://example.com/api/users
+Content-Type: application/json
+
+{
+  "username": "john_doe",
+  "email": "john.doe@example.com"
+}
