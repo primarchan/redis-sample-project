@@ -85,3 +85,8 @@
 ## Redis Transaction
 - Command
   - `MULTI`, `EXEC`, `DISCARD`, `WATCH`
+
+## Spring Session
+- HTTP Session
+- WebSocket
+- WebSession
